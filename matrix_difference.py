@@ -1,3 +1,9 @@
+"""
+Author: Shakeel Ahmad Sheikh
+PhD Student MultiSpeech Team LORIA-INRIA
+University of Lorraine, France
+"""
+
 import csv
 import os
 import numpy as np
