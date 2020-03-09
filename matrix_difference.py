@@ -61,7 +61,7 @@ def main():
     temperature = create_matrix_ReadingsVsNodes(files)
     temperature = np.delete(temperature,-1,0) #Delete Nan Row last
     #Save the differences
-    difference_matrix = np.zeros((temperature.shape[1], temperature.shape[1], 744))    
+    difference_matrix = np.zeros((744, temperature.shape[1], temperature.shape[1]))    
     difference_matrix = reading_difference(temperature)
     print(difference_matrix.shape)
     print(difference_matrix[:10,:10])
